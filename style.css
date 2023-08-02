@@ -1,0 +1,18 @@
+label{
+    display: block;
+    padding: 10px;
+}
+form{
+    text-align: center;
+    background-color: rgb(104, 180, 231);
+    margin: 0px 700px 0px 700px;
+}
+h1{
+    text-align: center;
+}
+#submit{
+    padding: 10px;
+}
+input[type=submit]:hover{
+    background-color:wheat;
+}

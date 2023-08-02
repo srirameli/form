@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration Form</title>
+    <h1>Regestration Form</h1>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="orange">
+    <form>
+        <label for ="Name">NAME</label>
+        <input type="text" name="Name" required>
+        <label for ="Email">Email</label>
+        <input type="email" name="Email" required>
+        <label for ="Password">Password</label>
+        <input type="password" name="Password" required>
+        <label for ="Phone Number">Phone Number</label>
+        <input type="tel" name="Phone Number" required>
+        <label for ="Gender">Gender</label>
+        <select id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <label for ="Zipcode">Zipcode</label>
+        <input type="number" name="Zipcode" required>
+        <label for ="About">About</label>
+        <input type="textarea" name="About">
+        <div id="submit">
+            <input type="Submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>
